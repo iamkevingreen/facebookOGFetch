@@ -9,6 +9,8 @@ The app requires [Meteor](http://meteor.com), which can be downloaded in your te
 
 `curl https://install.meteor.com/ | sh`
 
+run `npm install` in the root directory to install packages.
+
 Once installed git pull the repo and navigate to the root, and run `meteor` in the root.
 
 Navigate to `http://localhost:3000` you can upload an xml file and check the server log for the response.
