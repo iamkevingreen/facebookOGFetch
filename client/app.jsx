@@ -1,17 +1,6 @@
 import React from 'react';
 
 const App = React.createClass({
-  mixins: [ ReactMeteorData ],
-  getMeteorData() {
-    return {
-      canView() {
-        FlowRouter.current().route.name
-      }
-    };
-  },
-  getView() {
-    return this.data.canView()
-  },
   render() {
     return <div className="app-root">
       <div className="container">

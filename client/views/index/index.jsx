@@ -20,8 +20,6 @@ export const Index = React.createClass({
     }
 
     fr.readAsText(file);
-
-    // Meteor.call('facebook');
   },
   render() {
     return (
